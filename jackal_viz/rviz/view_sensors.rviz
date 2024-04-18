@@ -5,8 +5,6 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /PointCloud21
-        - /LaserScan1
       Splitter Ratio: 0.5
     Tree Height: 793
   - Class: rviz_common/Selection
@@ -297,8 +295,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 1.6143494844436646
-        Min Value: -0.06980971992015839
+        Max Value: -0.05656486749649048
+        Min Value: -0.07050520181655884
         Value: true
       Axis: Z
       Channel Name: intensity
@@ -312,7 +310,7 @@ Visualization Manager:
       Max Intensity: 0
       Min Color: 0; 0; 0
       Min Intensity: 0
-      Name: PointCloud2
+      Name: 3D Lidar
       Position Transformer: XYZ
       Selectable: true
       Size (Pixels): 3
@@ -346,7 +344,7 @@ Visualization Manager:
       Max Intensity: 0
       Min Color: 0; 0; 0
       Min Intensity: 0
-      Name: LaserScan
+      Name: 2D Lidar
       Position Transformer: XYZ
       Selectable: true
       Size (Pixels): 3
@@ -380,7 +378,7 @@ Visualization Manager:
       Max Intensity: 4096
       Min Color: 0; 0; 0
       Min Intensity: 0
-      Name: PointCloud2
+      Name: d435 Depth
       Position Transformer: XYZ
       Selectable: true
       Size (Pixels): 3
@@ -411,7 +409,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 8.479278564453125
+      Distance: 4.898744106292725
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -426,10 +424,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8003979921340942
+      Pitch: 0.4703975319862366
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 3.920380115509033
+      Yaw: 3.3453948497772217
     Saved: ~
 Window Geometry:
   Displays:
