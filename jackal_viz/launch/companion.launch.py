@@ -41,6 +41,8 @@ def generate_launch_description():
         package='rqt_robot_monitor',
         executable='rqt_robot_monitor',
         output='screen',
+        remappings=[('/diagnostics', 'diagnostics'), 
+                    ('/diagnostics_agg', 'diagnostics_agg')],
     )
 
     runtime_monitor_node = Node(
